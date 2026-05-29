@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fefcfc;
+  padding: 5px 20px;
+}
+nav .logo {
+  height: 30px;
+  width: auto;
+}
+nav .nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+nav .nav-links a {
+  text-decoration: none;
+  color: #0c0c0c;
+}
+nav .nav-icons {
+  display: flex;
+  gap: 20px;
+  color: #0c0c0c;
+}
+.hero {
+  background-image: url("images/hero-section-1-scaled.jpeg");
+  height: 100vh;
+  background-size: cover;
+}
